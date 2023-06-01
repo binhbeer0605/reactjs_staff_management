@@ -1,0 +1,18 @@
+.wrapper {
+    width: 200px;
+    height: calc(100vh - var(--default-layout-header-height));
+    padding: 10px 0 10px;
+
+    background-color: #12121299;
+    transition: all 0.2s linear;
+
+    &.show {
+        width: 200px;
+        transition: all 0.2s linear;
+    }
+
+    &.hide {
+        width: 75px;
+        transition: all 0.2s linear;
+    }
+}

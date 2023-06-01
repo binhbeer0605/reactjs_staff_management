@@ -1,0 +1,48 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.button-new {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.filter-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.td-label {
+    background-color: #0062cc;
+    width: 15%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.td-input {
+    width: 35%;
+}
+
+.table {
+    width: 100%;
+    empty-cells: hide;
+}
+
+.td {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.input,
+.select {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}

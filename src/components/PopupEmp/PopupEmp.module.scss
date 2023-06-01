@@ -1,0 +1,87 @@
+/* index.css */
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #33333366;
+}
+.modal {
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal > .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+}
+.modal > .actions {
+    margin: auto;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.td-label {
+    background-color: #0062cc;
+    width: 15%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.td-input {
+    width: 35%;
+}
+
+.table {
+    width: 100%;
+    empty-cells: hide;
+}
+
+.td {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.input,
+.select {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button-save {
+    margin-top: 20px;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
